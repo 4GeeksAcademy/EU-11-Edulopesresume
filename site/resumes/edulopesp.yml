@@ -1,0 +1,109 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "green"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Eduardo
+    last_name: Lopes
+    
+    # Define yourself in 4-5 words
+    motto: Full-Stack Dev. 
+    
+    # focus
+    focus: Learn how everything works
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I'm a student that after finishing my High school I didn't knew what I wanted to proceed, 
+      then I just started working as a waiter. Now I'm doing freelance as a Graphic Designer and studying code.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: http://sep.breatheco.de/static/edulopesp-pic.png
+
+    # Contact Information
+    email: eduardoelp2201@gmail.com #optional
+    phone: +351 937 206 407 #optional
+    website: #optional
+    linkedin: eduardolopespassos #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Edulopesp
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Portuguese
+        level: Native
+
+    # Interests or hobies
+    interests:
+      - item: Music
+
+      - item: Photograph
+
+      - item: Motorcycling
+
+# Your previous education
+education:
+    - degree: High School Diploma
+      university: Escola Secundaria Alberto Sampaio
+      # optional
+      university_logo:
+      time: 2019 - 2020
+      details: |
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Graphic Designer
+      time: 2022 - Present
+      company: 
+      # optional
+      company_logo: 
+      details: |
+        Creation of a Logo and publicity posters.
+
+
+# Your project portfolio
+projects:
+    intro: >
+
+    assignments:
+      - title: Instagram Photo Feed
+        # optional
+        project_logo: 
+        link: "https://github.com/4GeeksAcademy/edulopesp-InstagramPhotoFeed"
+        tagline: "A responsive website that is Instagram look alike."
+
+      - title: Excuse Generator
+        # optional
+        project_logo:
+        link: "https://github.com/4GeeksAcademy/edulopesp-projectexcuse"
+        tagline: "A website that gives you a random excuse every time the site is reloaded."
+
+skills:
+    toolset:
+      - name: Javascript
+        level: 20%
+
+      - name: HTML5 & CSS
+        level: 60%
+
+      - name: Photography
+        level: 60%
+
+      - name: Photoshop & Illustrator
+        level: 50%
